@@ -10,7 +10,7 @@ cp `~/.config/pulse/daemon.conf` `~/.config/pulse/daemon.conf.bkp`
 
 2 - Apague tudo o que estiver dentro do arquivo `~/.config/pulse/daemon.conf` e cole o seguinte conteúdo:
 
-`default-sample-format = s24le
+` default-sample-format = s24le
 default-sample-rate = 96000
 alternate-sample-rate = 44100
 default-sample-channels = 2
@@ -27,7 +27,7 @@ realtime-scheduling = yes
 realtime-priority = 9
 rlimit-rtprio = 9
 rlimit-rttime = -1
-daemonize = no`
+daemonize = no `
 
 3 - Reinicie o pulse-audio:
 `pulseaudio -k`
